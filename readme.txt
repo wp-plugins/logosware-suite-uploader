@@ -6,7 +6,7 @@ Requires at least: 3.0 or higher
 Tested up to: 3.1
 Stable tag: 1.0
 
-This plugin make it possible to upload and register contents which are published by Logosware products(FLIPPER, STORM, THiNQ).
+This plugin makes it possible to upload and register contents which are published by Logosware products(FLIPPER, STORM, THiNQ).
 
 == Description ==
 
