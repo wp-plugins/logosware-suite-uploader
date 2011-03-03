@@ -1,5 +1,5 @@
 === LOGOSWARE SUITE UPLOADER ===
-Contributors: logosware, sdg (this should be a list of wordpress.org userid's. これはwordpress.org userid'sのリストでなければなりません。)
+Contributors: logosware
 Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
