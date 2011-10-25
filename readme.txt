@@ -44,7 +44,7 @@ An answer to that question.
 
 == Screenshots ==
 
-スクリーンショット
+screenshot-1.png
 
 
 == Changelog ==
@@ -62,5 +62,3 @@ An answer to that question.
 This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
-
-
