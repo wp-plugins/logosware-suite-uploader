@@ -8,35 +8,35 @@ Stable tag: 1.1
 
 == Description ==
 
-ƒƒSƒXƒEƒFƒAFLIPPERMakerASTORMMakerATHiNQMaker‚Åì¬‚µ‚½ƒRƒ“ƒeƒ“ƒc‚ÌZipƒtƒ@ƒCƒ‹‚ðƒAƒbƒvƒ[ƒh‚·‚é‚½‚ß‚Ìƒvƒ‰ƒOƒCƒ“‚Å‚·B
-ƒAƒbƒvƒ[ƒh‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ÍWordpress‚ÌƒƒfƒBƒAƒ‰ƒCƒuƒ‰ƒŠ‚É“o˜^‚³‚ê‚Ü‚·B
-“o˜^‚µ‚½ƒtƒ@ƒCƒ‹‚ÍAƒGƒfƒBƒ^‚ÌLW Suiteƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ä•\Ž¦‚³‚ê‚éLogosware SuiteƒEƒBƒ“ƒhƒE‚ÉƒŠƒXƒg•\Ž¦‚³‚ê‚Ü‚·B
-ƒRƒ“ƒeƒ“ƒc‚ÍA‹LŽ–‚ÉƒVƒ‡[ƒgƒR[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-ƒRƒ“ƒeƒ“ƒc‚ÌURL‚ð‹LŽ–‚ÅŽg‚¤‚±‚Æ‚à‚Å‚«‚Ü‚·B
+ãƒ­ã‚´ã‚¹ã‚¦ã‚§ã‚¢FLIPPERMakerã€STORMMakerã€THiNQMakerã§ä½œæˆã—ãŸã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã®Zipãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ãŸã‚ã®ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã§ã™ã€‚
+ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«ã¯Wordpressã®ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã«ç™»éŒ²ã•ã‚Œã¾ã™ã€‚
+ç™»éŒ²ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã¯ã€ã‚¨ãƒ‡ã‚£ã‚¿ã®LW Suiteãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦è¡¨ç¤ºã•ã‚Œã‚‹Logosware Suiteã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã«ãƒªã‚¹ãƒˆè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã¯ã€è¨˜äº‹ã«ã‚·ãƒ§ãƒ¼ãƒˆã‚³ãƒ¼ãƒ‰ã¨ã—ã¦æŒ¿å…¥ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã®URLã‚’è¨˜äº‹ã§ä½¿ã†ã“ã¨ã‚‚ã§ãã¾ã™ã€‚
 
 == Installation ==
 1.
-*LwSuiteUploader‚ðƒtƒHƒ‹ƒ_‚²‚Æ"/wp-content/plugins/"ƒfƒBƒŒƒNƒgƒŠ‚ÉƒAƒbƒvƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
-*WordPress‚Ì"Plugins"ƒƒjƒ…[‚©‚çAƒvƒ‰ƒOƒCƒ“‚ð—LŒø‰»‚µ‚Ä‚­‚¾‚³‚¢B
+*LwSuiteUploaderã‚’ãƒ•ã‚©ãƒ«ãƒ€ã”ã¨"/wp-content/plugins/"ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ã€‚
+*WordPressã®"Plugins"ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰ã€ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’æœ‰åŠ¹åŒ–ã—ã¦ãã ã•ã„ã€‚
 
 2.
-*‘‚«o‚µ‚½ƒRƒ“ƒeƒ“ƒc‚ðzipƒtƒ@ƒCƒ‹‚Éˆ³k‚µ‚Ä‚­‚¾‚³‚¢i¦ FLIPPERMakerASTORMMakerATHiNQMakerˆÈŠO‚Ìƒf[ƒ^‚ÍƒAƒbƒvƒ[ƒh‚Å‚«‚Ü‚¹‚ñjB
-*ƒƒjƒ…[‚ÌƒƒfƒBƒA„LW SuiteƒAƒbƒvƒ[ƒh‚Åƒtƒ@ƒCƒ‹‚ðƒAƒbƒvƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
+*æ›¸ãå‡ºã—ãŸã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’zipãƒ•ã‚¡ã‚¤ãƒ«ã«åœ§ç¸®ã—ã¦ãã ã•ã„ï¼ˆâ€» FLIPPERMakerã€STORMMakerã€THiNQMakerä»¥å¤–ã®ãƒ‡ãƒ¼ã‚¿ã¯ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã§ãã¾ã›ã‚“ï¼‰ã€‚
+*ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ãƒ¡ãƒ‡ã‚£ã‚¢ï¼žLW Suiteã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã§ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ã€‚
 
 3.
-*ƒRƒ“ƒeƒ“ƒc‚ð–„‚ßž‚Ý‚½‚¢ƒy[ƒW‚ðŠJ‚«AƒGƒfƒBƒ^‚ÌLWƒ}[ƒNƒ{ƒ^ƒ“i–”‚ÍALW Suiteƒ{ƒ^ƒ“j‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-*Suite Uploader‚ÅƒAƒbƒvƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ªˆê——•\Ž¦‚³‚ê‚Ü‚·‚Ì‚ÅAŠY“–ƒRƒ“ƒeƒ“ƒc‚ð‘I‘ðAƒTƒCƒY‚ðŽw’è‚µ‚ÄOKƒ{ƒ^ƒ“‚ð‰Ÿ‚µA‹LŽ–‚É‘}“ü‚µ‚Ü‚·B
+*ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’åŸ‹ã‚è¾¼ã¿ãŸã„ãƒšãƒ¼ã‚¸ã‚’é–‹ãã€ã‚¨ãƒ‡ã‚£ã‚¿ã®LWãƒžãƒ¼ã‚¯ãƒœã‚¿ãƒ³ï¼ˆåˆã¯ã€LW Suiteãƒœã‚¿ãƒ³ï¼‰ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
+*Suite Uploaderã§ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ãŒä¸€è¦§è¡¨ç¤ºã•ã‚Œã¾ã™ã®ã§ã€è©²å½“ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’é¸æŠžã€ã‚µã‚¤ã‚ºã‚’æŒ‡å®šã—ã¦OKãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã€è¨˜äº‹ã«æŒ¿å…¥ã—ã¾ã™ã€‚
 
-**Ú‚µ‚¢Žg‚¢•û‚ð‚²à–¾‚·‚éƒ}ƒjƒ…ƒAƒ‹‚à‚²—pˆÓ‚µ‚Ä‚¢‚Ü‚·B
+**è©³ã—ã„ä½¿ã„æ–¹ã‚’ã”èª¬æ˜Žã™ã‚‹ãƒžãƒ‹ãƒ¥ã‚¢ãƒ«ã‚‚ã”ç”¨æ„ã—ã¦ã„ã¾ã™ã€‚
 http://suite.logosware.com/wp-content/uploads/sutie_uploader_manual.pdf
 
 
 == Frequently Asked Questions ==
 
-= ‚Ç‚¤‚â‚Á‚ÄgMakerhƒ\ƒtƒgƒEƒFƒA‚ð“üŽè‚·‚é‚Ì‚Å‚·‚©H = 
+= ã©ã†ã‚„ã£ã¦â€œMakerâ€ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚’å…¥æ‰‹ã™ã‚‹ã®ã§ã™ã‹ï¼Ÿ = 
 
-FLIPPER Maker, STORM Maker, THiNQ Maker‚ÍAƒƒSƒXƒEƒFƒA‚Ì»•i‚Å‚·B
-http://suite.logosware.com ‚Åw“ü‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+FLIPPER Maker, STORM Maker, THiNQ Makerã¯ã€ãƒ­ã‚´ã‚¹ã‚¦ã‚§ã‚¢ã®è£½å“ã§ã™ã€‚
+http://suite.logosware.com ã§è³¼å…¥ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
 
 = A question that someone might have =
 
@@ -44,7 +44,7 @@ An answer to that question.
 
 == Screenshots ==
 
-ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg
+screenshot-1.png
 
 
 == Changelog ==
@@ -62,5 +62,3 @@ An answer to that question.
 This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
-
-
