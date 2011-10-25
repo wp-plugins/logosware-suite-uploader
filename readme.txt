@@ -1,52 +1,66 @@
 === LOGOSWARE SUITE UPLOADER ===
-Contributors: LOGOSWARE
+Contributors: logosware
 Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.1
-Stable tag: 1.0
-
-This plugin makes it possible to upload and register contents which are published by Logosware products(FLIPPER, STORM, THiNQ).
+Stable tag: 1.1
 
 == Description ==
 
-You can upload compressed(zip format) contents authored with FLIPPER MAKER, STORM MAKER, THiNQ MAKER.
-The uploaded files will be registered in Media Library of WordPress. 
-After you registered the file, you can refer the link of the file.
-Use the link when you post an article.
+ロゴスウェアFLIPPERMaker、STORMMaker、THiNQMakerで作成したコンテンツのZipファイルをアップロードするためのプラグインです。
+アップロードされたファイルはWordpressのメディアライブラリに登録されます。
+登録したファイルは、エディタのLW Suiteボタンを押して表示されるLogosware Suiteウィンドウにリスト表示されます。
+コンテンツは、記事にショートコードとして挿入することができます。
+コンテンツのURLを記事で使うこともできます。
 
 == Installation ==
-
-There are two installation methods. 
-
 1.
-* Upload `LwSuiteUploader.php` to the `/wp-content/plugins/` directory
-* Activate the plugin through the 'Plugins' menu in WordPress
+*LwSuiteUploaderをフォルダごと"/wp-content/plugins/"ディレクトリにアップロードしてください。
+*WordPressの"Plugins"メニューから、プラグインを有効化してください。
 
 2.
-* Compress `LwSuiteUploader.php` into zip.
-* Upload the zip file from Plugins > New > Upload  menu 
+*書き出したコンテンツをzipファイルに圧縮してください（※ FLIPPERMaker、STORMMaker、THiNQMaker以外のデータはアップロードできません）。
+*メニューのメディア＞LW Suiteアップロードでファイルをアップロードしてください。
+
+3.
+*コンテンツを埋め込みたいページを開き、エディタのLWマークボタン（又は、LW Suiteボタン）をクリックします。
+*Suite Uploaderでアップロードしたファイルが一覧表示されますので、該当コンテンツを選択、サイズを指定してOKボタンを押し、記事に挿入します。
+
+**詳しい使い方をご説明するマニュアルもご用意しています。
+http://suite.logosware.com/wp-content/uploads/sutie_uploader_manual.pdf
+
 
 == Frequently Asked Questions ==
 
-= How do I get "MAKER" software?(How do I get authoring software?) = 
+= どうやって“Maker”ソフトウェアを入手するのですか？ = 
 
-FLIPPER MAKER, STORM MAKER, THiNQ MAKER are products of Logosware.
-So, you can buy them at http://www.logosware.com/ .
+FLIPPER Maker, STORM Maker, THiNQ Makerは、ロゴスウェアの製品です。
+http://suite.logosware.com で購入することができます。
+
+= A question that someone might have =
+
+An answer to that question.
 
 == Screenshots ==
 
-1. Upload form for zip file.
+スクリーンショット
+
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* Contents list is added in Article Edit Page. You can insert a shortcode that will be converted into iframe tag on an article page.
+
+= 1.0.0 =
 * First Release.
+
 
 == Upgrade Notice ==
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+= 1.1.0 =
+This version implemented embedded iframe function. And it enhanced usability.
 
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+== Arbitrary section ==
+
+
