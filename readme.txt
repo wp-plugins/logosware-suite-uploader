@@ -58,11 +58,12 @@ screenshot-1.png
 
 == Upgrade Notice ==
 
+= 1.1.0 =
+
 注意事項
 *WordPressのマルチサイト機能を使用したブログの場合、スマートフォンやタブレットで閲覧すると、
 コンテンツがうまく表示されません。この不具合は次期バージョンで対応予定です。
 
-= 1.1.0 =
 This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
