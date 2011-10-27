@@ -8,7 +8,7 @@ Stable tag: 1.1
 
 == Description ==
 
-ロゴスウェアFLIPPERMaker、STORMMaker、THiNQMakerで作成したコンテンツのZipファイルをアップロードするためのプラグインです。
+ロゴスウェアFLIPPER Maker、STORM Makerで作成したコンテンツのZipファイルをアップロードするためのプラグインです。
 アップロードされたファイルはWordpressのメディアライブラリに登録されます。
 登録したファイルは、エディタのLW Suiteボタンを押して表示されるLogosware Suiteウィンドウにリスト表示されます。
 コンテンツは、記事にショートコードとして挿入することができます。
@@ -20,7 +20,7 @@ Stable tag: 1.1
 *WordPressの"Plugins"メニューから、プラグインを有効化してください。
 
 2.
-*書き出したコンテンツをzipファイルに圧縮してください（※ FLIPPERMaker、STORMMaker、THiNQMaker以外のデータはアップロードできません）。
+*書き出したコンテンツをzipファイルに圧縮してください（※ FLIPPER Maker、STORM Maker以外のデータはアップロードできません）。
 *メニューのメディア＞LW Suiteアップロードでファイルをアップロードしてください。
 
 3.
@@ -35,7 +35,7 @@ http://suite.logosware.com/wp-content/uploads/sutie_uploader_manual.pdf
 
 = どうやって“Maker”ソフトウェアを入手するのですか？ = 
 
-FLIPPER Maker, STORM Maker, THiNQ Makerは、ロゴスウェアの製品です。
+FLIPPER Maker, STORM Makerはロゴスウェアの製品です。
 http://suite.logosware.com で購入することができます。
 
 = A question that someone might have =
