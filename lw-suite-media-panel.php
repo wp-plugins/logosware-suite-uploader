@@ -163,9 +163,15 @@ class lws_media_panel {
 			$i=0;
 			foreach($list as $row){
 				
+				/*
 				$urlParts = parse_url($row->meta_value);
+				
 				$path = wp_upload_dir();
 				$url = $path['baseurl'] . "/" . substr($urlParts['path'], 0, -11) . "/index.html";
+				*/
+				// Multi User機能でSTORM mobile版が見れないので共通のディレクトリに保存するように修正
+				$path = get_option('siteurl');
+				$url = $path . "/wp-content/uploads/" . substr($row->meta_value, 0, -11) . "/index.html";
 				
 				if($i++ == 0){
 					$checked = "checked";

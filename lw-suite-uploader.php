@@ -4,7 +4,7 @@ Plugin Name: LOGOSWARE SUITE UPLOADER
 Plugin URI: http://www.logosware.com/
 Description: LOGOSWARE FLIPPER, STORM, THiNQをアップロードするプラグインです。
 Author: LOGOSWARE
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://www.logosware.com/
 */
 
@@ -33,10 +33,26 @@ class lw_suite_uploader {
 	 */
 	function lw_suite_uploader() {
 		global $pagenow;
+		global $blog_id;
+
+		if(!empty($blog_id)){
+			 $this->upDirName = $this->upDirName . $blog_id . "/";
+		}
 		
+		/*
 		$path = wp_upload_dir();
 		$this->upDir = $path['basedir'] . "/" . $this->upDirName;
 		$this->tempDir = $path['basedir'] . "/" . $this->upDirName . "temp/";
+		*/
+		
+		// Multi User機能でSTORM mobile版が見れないので共通のディレクトリに保存するように修正
+		$path = getCwd();
+		$length1 = strlen($path);
+		$length2 = strlen("/wp-admin");
+		$path = mb_substr($path,0 ,$length1 - $length2);
+		$path = $path . "/wp-content/uploads";
+		$this->upDir = $path . "/" . $this->upDirName;
+		$this->tempDir = $path . "/" . $this->upDirName . "temp/";
 		
 		
 		// 管理メニューに追加するフック
@@ -385,7 +401,14 @@ class lw_suite_uploader {
 		}
 		
 		
-		$path = wp_upload_dir();
+		//$path = wp_upload_dir();
+		// Multi User機能でSTORM mobile版が見れないので共通のディレクトリに保存するように修正
+		$path = get_option('siteurl');
+		$url = $path . "/wp-content/uploads";
+		$path = array();
+		$path['baseurl'] = $url;
+		
+		
 		$url =  $path['baseurl'] . "/" . $this->upDirName . $contentDirName . "/" . $startFileName;
 		$uploadedPath = $this->upDirName . $contentDirName . "/" . $startFileName;
 		$currentUser = wp_get_current_user();

@@ -42,8 +42,18 @@ class lws_shortcode {
 		$urlParts = parse_url($startFile);
 		$uploadedDir = substr($urlParts['path'], 0, -11);
 		
+		/*
 		$path = wp_upload_dir();
 		$url = $path['baseurl'] . "/" . $uploadedDir;
+		*/
+		// Multi User機能でSTORM mobile版が見れないので共通のディレクトリに保存するように修正
+		$path = get_option('siteurl');
+		$url = $path . "/wp-content/uploads/" . $uploadedDir;
+		//basedir
+		$path = getCwd();
+		$path2 = $path . "/wp-content/uploads";
+		$path = array();
+		$path['basedir'] = $path2;
 		
 		
 		if($type == "storm"){

@@ -4,7 +4,7 @@ Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 
 == Description ==
 
@@ -49,6 +49,10 @@ screenshot-1.png
 
 == Changelog ==
 
+= 1.1.1 =
+マルチサイト機能に対応しました。
+Added support for multi-site capability.
+
 = 1.1.0 =
 * Contents list is added in Article Edit Page. You can insert a shortcode that will be converted into iframe tag on an article page.
 
@@ -58,12 +62,10 @@ screenshot-1.png
 
 == Upgrade Notice ==
 
+= 1.1.1 =
+マルチサイト機能に対応しました。
+
 = 1.1.0 =
-
-注意事項
-*WordPressのマルチサイト機能を使用したブログの場合、スマートフォンやタブレットで閲覧すると、
-コンテンツがうまく表示されません。この不具合は次期バージョンで対応予定です。
-
 This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
