@@ -4,7 +4,7 @@ Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 == Description ==
 
@@ -48,6 +48,8 @@ screenshot-1.png
 
 
 == Changelog ==
+= 1.1.2 =
+プラグイン利用のためのユーザ権限のレベルを修正しました。編集者でご利用戴くことが可能です。
 
 = 1.1.1 =
 マルチサイト機能に対応しました。
