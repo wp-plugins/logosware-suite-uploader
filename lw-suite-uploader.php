@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: LOGOSWARE SUITE UPLOADER
+Plugin Name: LOGOSWARE SUITE Uploader
 Plugin URI: http://www.logosware.com/
 Description: LOGOSWARE FLIPPER, STORM, THiNQをアップロードするプラグインです。
 Author: LOGOSWARE
