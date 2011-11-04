@@ -1,4 +1,4 @@
-=== LOGOSWARE SUITE UPLOADER ===
+=== LOGOSWARE SUITE Uploader ===
 Contributors: logosware
 Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
