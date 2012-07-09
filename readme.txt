@@ -1,14 +1,14 @@
-=== LOGOSWARE SUITE Uploader ===
+﻿=== LOGOSWARE SUITE Uploader ===
 Contributors: logosware
 Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 
 == Description ==
 
-ロゴスウェアFLIPPER Maker、STORM Makerで作成したコンテンツのZipファイルをアップロードするためのプラグインです。
+ロゴスウェアFLIPPER Maker、STORM Maker、THiNQ Makerで作成したコンテンツのzipファイルをアップロードするためのプラグインです。
 アップロードされたファイルはWordpressのメディアライブラリに登録されます。
 登録したファイルは、エディタのLW Suiteボタンを押して表示されるLogosware Suiteウィンドウにリスト表示されます。
 コンテンツは、記事にショートコードとして挿入することができます。
@@ -20,8 +20,8 @@ Stable tag: 1.1.2
 *WordPressの"Plugins"メニューから、プラグインを有効化してください。
 
 2.
-*書き出したコンテンツをzipファイルに圧縮してください（※ FLIPPER Maker、STORM Maker以外のデータはアップロードできません）。
-*メニューのメディア＞LW Suiteアップロードでファイルをアップロードしてください。
+*書き出したコンテンツをzipファイルに圧縮してください（※FLIPPER、STORM、THiNQコンテンツ以外のデータはアップロードできません）。
+*メニューのメディア＞LW Suiteアップロードでzipファイルをアップロードしてください。
 
 3.
 *コンテンツを埋め込みたいページを開き、エディタのLWマークボタン（又は、LW Suiteボタン）をクリックします。
@@ -48,6 +48,9 @@ screenshot-1.png
 
 
 == Changelog ==
+= 1.1.3 =
+プラグインを有効化すると記事編集エディタのボタンが消えるバグを修正しました。
+
 = 1.1.2 =
 プラグイン利用のためのユーザ権限のレベルを修正しました。編集者でご利用戴くことが可能です。
 

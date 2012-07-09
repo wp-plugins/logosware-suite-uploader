@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: LOGOSWARE SUITE Uploader
+Plugin Name: LOGOSWARE SUITE UPLOADER
 Plugin URI: http://www.logosware.com/
 Description: LOGOSWARE FLIPPER, STORM, THiNQをアップロードするプラグインです。
 Author: LOGOSWARE
-Version: 1.1.2
+Version: 1.1.3
 Author URI: http://www.logosware.com/
 */
 
@@ -147,13 +147,14 @@ class lw_suite_uploader {
 	}
 	
 	function displayForm(){
+		$size = $this->formatSize(wp_max_upload_size());
 ?>
 		<form enctype="multipart/form-data" method="post" action="upload.php?page=lwfile_upload&step=uploadzip" class="media-upload-form type-form validate" id="file-form">
 		<input type="file" name="zip">
 		<input type="submit" value="アップロード" class="button">
 		</form>
 		<br>
-		アップロードファイルの最大サイズ: <?= $this->formatSize(wp_max_upload_size()) ?>
+		アップロードファイルの最大サイズ: <?php echo $size; ?>
 <?php
 	}
 	

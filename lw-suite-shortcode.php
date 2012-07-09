@@ -30,7 +30,7 @@ class lws_shortcode {
 		
 		global $wpdb;
 		$query = "SELECT * FROM " . $wpdb->postmeta . " pm LEFT JOIN " . $wpdb->posts . " p ON p.ID = pm.post_id " .
-					" WHERE p.ID =".$id." AND meta_key = '_wp_attached_file'";
+					" WHERE p.ID =".$wpdb->escape($id)." AND meta_key = '_wp_attached_file'";
 		$postList = $wpdb->get_results($query);
 		
 		if(count($postList) == 1){

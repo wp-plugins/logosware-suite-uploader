@@ -84,7 +84,7 @@ class lws_media_panel {
 		//			" WHERE meta_key = '_lw_suite_type'";
 		
 		$query = "SELECT * FROM " . $wpdb->postmeta . " WHERE meta_key = '_lw_suite_type' ORDER BY post_id DESC";
-		$query .= " LIMIT ".(($index-1)*$this->numPerPage).",".($this->numPerPage);
+		$query .= " LIMIT " . $wpdb->escape(($index-1)*$this->numPerPage) .",". $wpdb->escape($this->numPerPage);
 		
 		
 		$postmetaList = $wpdb->get_results($query);
@@ -112,7 +112,7 @@ class lws_media_panel {
 		$idStr = implode(",",$postIdList);
 		
 		$query2 = "SELECT * FROM " . $wpdb->postmeta . " pm LEFT JOIN " . $wpdb->posts . " p ON p.ID = pm.post_id " .
-					" WHERE p.ID in(".$idStr.") AND meta_key = '_wp_attached_file' ORDER BY p.ID DESC ";
+					" WHERE p.ID in(". $wpdb->escape($idStr) .") AND meta_key = '_wp_attached_file' ORDER BY p.ID DESC ";
 		$postList = $wpdb->get_results($query2);
 		return $postList;
 	}
@@ -301,12 +301,12 @@ td.lws_list{
    <link href="<?php echo $this->plugin_url . '/jqModal/jqModal.css'; ?>" type="text/css" rel="stylesheet" />
 
    <script type="text/javascript">
-   	jQuery(document).ready(function(){
+   	jQuery(window).load(function(){
 		// Add the buttons to the HTML view
 		jQuery("#ed_toolbar").append('<input type=\"button\" class=\"ed_button\" onclick=\"jQuery(\'#dialog_lwsuploader\').jqmShow();getSuiteContentList();\" title=\"LW Suite\" value=\"LW Suite\" />');
    	});
 
-	jQuery(document).ready(function () {
+	jQuery(window).load(function () {
 		jQuery('#dialog_lwsuploader').jqm();
 	});
 
