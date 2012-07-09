@@ -35,15 +35,11 @@ http://suite.logosware.com/wp-content/uploads/sutie_uploader_manual.pdf
 
 = どうやって“Maker”ソフトウェアを入手するのですか？ = 
 
-FLIPPER Maker, STORM Makerはロゴスウェアの製品です。
+FLIPPER Maker、 STORM Maker、THiNQ Makerはロゴスウェアの製品です。
 http://suite.logosware.com で購入することができます。
 
-= A question that someone might have =
-
-An answer to that question.
 
 == Screenshots ==
-
 screenshot-1.png
 
 
