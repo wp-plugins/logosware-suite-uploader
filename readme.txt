@@ -40,7 +40,7 @@ http://suite.logosware.com で購入することができます。
 
 
 == Screenshots ==
-screenshot-1.png
+1. メディア＞LW Suiteアップロード　からzipファイルをアップロードする
 
 
 == Changelog ==
