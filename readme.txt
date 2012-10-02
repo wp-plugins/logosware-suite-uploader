@@ -4,7 +4,7 @@ Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 == Description ==
 
@@ -44,6 +44,9 @@ http://suite.logosware.com で購入することができます。
 
 
 == Changelog ==
+= 1.1.4 =
+デバッグ
+
 = 1.1.3 =
 プラグインを有効化すると記事編集エディタのボタンが消えるバグを修正しました。
 
