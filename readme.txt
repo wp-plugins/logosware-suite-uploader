@@ -74,5 +74,5 @@ This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
 
-= 1.1.4 =
+= 1.1.5 =
 プラグインのディレクトリを変更しても動くように修正しました。
