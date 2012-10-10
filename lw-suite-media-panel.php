@@ -5,13 +5,14 @@ if ( is_admin() && !class_exists( 'lws_media_panel' ) ) :
 
 class lws_media_panel {
 	
-	var $plugin_folder ='lw-suite-uploader';
+	var $plugin_folder = '';
 	var $plugin_url;
 	
 	var $numPerPage = 10;
 	
 	function lws_media_panel(){
 		global $pagenow;
+		$this->plugin_folder = basename(dirname(__FILE__));
 		
 		// post.php lw_content_list
 		if ( 'post.php' == $pagenow ) {

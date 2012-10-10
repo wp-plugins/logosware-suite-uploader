@@ -12,6 +12,7 @@ class lws_shortcode {
 	
 	function lws_shortcode(){
 		global $pagenow;
+		$this->plugin_folder = basename(dirname(__FILE__));
 		
 		add_action('wp_head', array(&$this,'print_css_link'));
 		add_shortcode('lwsuite', array(&$this,'lwsuitetag_func'));
@@ -115,7 +116,7 @@ class lws_shortcode {
 	
 	function print_css_link(){
 		
-		echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . get_option('siteurl')  . "/wp-content/plugins/lw-suite-uploader/css/btn.css\" />\n";
+		echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . get_option('siteurl')  . "/wp-content/plugins/" . $this->plugin_folder. "/css/btn.css\" />\n";
 		
 	}
 }

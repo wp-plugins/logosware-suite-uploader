@@ -3,8 +3,8 @@ Contributors: logosware
 Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
-Tested up to: 3.1
-Stable tag: 1.1.4
+Tested up to: 3.2.4
+Stable tag: 1.1.5
 
 == Description ==
 
@@ -73,3 +73,6 @@ Added support for multi-site capability.
 This version implemented embedded iframe function. And it enhanced usability.
 
 == Arbitrary section ==
+
+= 1.1.4 =
+プラグインのディレクトリを変更しても動くように修正しました。
