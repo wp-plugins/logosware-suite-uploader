@@ -4,7 +4,7 @@ Donate link: http://www.logosware.com/
 Tags: post, posts, upload, zip
 Requires at least: 3.0 or higher
 Tested up to: 3.2.4
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 
 == Description ==
 
@@ -42,8 +42,10 @@ http://suite.logosware.com で購入することができます。
 == Screenshots ==
 1. メディア＞LW Suiteアップロード　からzipファイルをアップロードする
 
-
 == Changelog ==
+
+= 1.1.6=
+PHP5.4.1に対応しました。
 
 = 1.1.5 =
 プラグインのディレクトリを変更しても動くように修正しました。

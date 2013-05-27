@@ -4,7 +4,7 @@ Plugin Name: LOGOSWARE SUITE UPLOADER
 Plugin URI: http://www.logosware.com/
 Description: LOGOSWARE FLIPPER, STORM, THiNQをアップロードするプラグインです。
 Author: LOGOSWARE
-Version: 1.1.5
+Version: 1.1.6
 Author URI: http://www.logosware.com/
 */
 
@@ -360,7 +360,7 @@ class lw_suite_uploader {
 			if($path == ""){
 				$path = dirname($file);
 			}
-			system("unzip ".$file. " -d ".$path . " > ".$outputPath, &$ret);
+			system("unzip ".$file. " -d ".$path . " > ".$outputPath, $ret);
 		}
 		return true;
 	}
